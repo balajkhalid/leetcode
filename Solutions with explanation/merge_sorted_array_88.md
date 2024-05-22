@@ -19,6 +19,8 @@ Given two sorted arrays, `nums1` and `nums2`, the task is to merge them into a s
 3. Merge Arrays: We iterate through both arrays `nums1_copy` and `nums2`, comparing elements at indexes i and j. We place the smaller element in the position indicated by k in `nums1` and increment the respective indexes.
 4. Handle Remaining Elements: If we run of out bounds for any array the remaining elements of other array placed into `nums1`.
 
+(Link to LeetCode Submission)[https://leetcode.com/problems/merge-sorted-array/solutions/5191924/easy-python-solution]
+
 ## Complexity
 
 - Time complexity: $$O(m+n)$$
